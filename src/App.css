@@ -1,0 +1,97 @@
+ .App {
+  text-align: center;
+}
+
+.app-logo {
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+}
+.app-tittle {
+  font-family: 'Inter';
+  padding: 5px;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F55A5A;
+}
+
+.row-image{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.mapPointer{
+  width: 16px;
+  height: 16px;
+}
+.travel-row-parent{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  border-bottom: 1px solid #F5F5F5;
+  margin: 2.5% 0% 0% 2.5%;
+  padding: 0% 0% 1% 0%;
+  text-align: left;
+}
+a{
+  text-decoration: none;
+}
+.travel-row-subsec{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.travel-row-sub{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 200px;
+}
+.items{
+  padding: 0% 0% 0% 0%;
+  margin: 2px 0px;
+}
+.sub-items{
+  padding: 4px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: App-logo-spin infinite 3s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.grey{
+  color: grey;
+}
+.bold{
+  font-weight: bold;
+}
