@@ -12,7 +12,7 @@ function TravelRow(props){
                 </div>
                 <h1 className="bold items">{props.TravelRow.title}</h1>
                 <p className="bold items">{`${props.TravelRow.startDate} - ${props.TravelRow.endDate}`}</p>
-                <p  className=" items">{props.TravelRow.description}</p>
+                <p className=" items">{props.TravelRow.description}</p>
             </div>
         </div>
     )
